@@ -9,10 +9,9 @@
       </Synthesizer>
     <Division>480</Division>
     <Style>
-      <lastSystemFillLimit>0</lastSystemFillLimit>
       <page-layout>
-        <page-height>1683.36</page-height>
-        <page-width>1190.88</page-width>
+        <page-height>1683.78</page-height>
+        <page-width>1190.55</page-width>
         <page-margins type="even">
           <left-margin>56.6929</left-margin>
           <right-margin>56.6929</right-margin>
@@ -35,11 +34,12 @@
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
-    <metaTag name="creationDate">2015-12-12</metaTag>
+    <metaTag name="creationDate">2015-11-27</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
-    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="originalFormat">mid</metaTag>
+    <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
@@ -54,25 +54,30 @@
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
-          <name>stdNormal</name>
           </StaffType>
-        <defaultClef>F</defaultClef>
-        <bracket type="-1" span="0"/>
+        <defaultClef>F8vb</defaultClef>
         </Staff>
-      <trackName>Piano</trackName>
+      <trackName>Electric Bass, Mike - Bass Guitar</trackName>
       <Instrument>
-        <longName>Piano</longName>
-        <shortName>Pno.</shortName>
-        <trackName>Piano</trackName>
-        <minPitchP>21</minPitchP>
-        <maxPitchP>108</maxPitchP>
-        <minPitchA>21</minPitchA>
-        <maxPitchA>108</maxPitchA>
-        <instrumentId>keyboard.piano</instrumentId>
-        <clef staff="2">F</clef>
+        <longName>Electric Bass, Mike - Bass Guitar</longName>
+        <shortName>El. B.</shortName>
+        <trackName>Electric Bass</trackName>
+        <minPitchP>28</minPitchP>
+        <maxPitchP>65</maxPitchP>
+        <minPitchA>28</minPitchA>
+        <maxPitchA>65</maxPitchA>
+        <instrumentId>pluck.bass.electric</instrumentId>
+        <clef>F8vb</clef>
+        <StringData>
+          <frets>24</frets>
+          <string>28</string>
+          <string>33</string>
+          <string>38</string>
+          <string>43</string>
+          </StringData>
         <Articulation>
           <velocity>100</velocity>
-          <gateTime>95</gateTime>
+          <gateTime>100</gateTime>
           </Articulation>
         <Articulation name="staccatissimo">
           <velocity>100</velocity>
@@ -99,7 +104,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="33"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -114,6 +119,10 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
+        <Tempo>
+          <tempo>2.86667</tempo>
+          <text><sym>unicodeNoteQuarterUp</sym> = 172</text>
+          </Tempo>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
@@ -384,10 +393,6 @@
             <veloType>user</veloType>
             </Note>
           </Chord>
-        <BarLine>
-          <subtype>end</subtype>
-          <span>1</span>
-          </BarLine>
         </Measure>
       </Staff>
     </Score>
